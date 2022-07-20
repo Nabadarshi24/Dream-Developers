@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.3rem;
+}
+h4{
+    color: white;
+    font-size: 1.2rem;
+}
+p{
+    color: rgb(162, 159, 159);
+    font-size: 1.3rem;
+    font-weight: 250px;
+}
+.color-highlights{
+    color: hsl(180deg 54% 49%);
+}
+
+/* header design starts here */
+li, a, button{
+    font-size: 20px;
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    height: 92px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    background-color: #0e0e0e;
+}
+.logo{
+    width: 75px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 30px;
+    padding-top: 35px;
+}
+.nav-links ul li a:hover{
+    background-color: #f76241;
+    padding: 15px 25px;
+    transition: 0.3s;
+}
+
+.call-btn{
+    background-color: #31d0d2;
+    padding: 15px 25px;
+    margin-top: 35px;
+    border: none;
+}
+
+/* header design ends here */
+
+/* slider design starts here */
+
+.slider-bg{
+    background-image: url(images/slider-bg.jpg);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* slider design starts here */
+
+/* progress design starts here */
+
+.progress{
+    padding-top: 150px;
+    max-width: 1376px;
+    margin: 0 auto;
+    text-align: center;
+}
+.progress p {
+    line-height: 30px;
+}
+
+/* progress design ends here */
+
+/* projects design starts here */
+
+.projects{
+    margin-top: 150px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1376px;
+    margin: 0 auto;
+}
+.card{
+    width: 337px;
+    height: 520px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+/* projects design ends here */
+
+/* about us section design starts here */
+.about-us{
+    width: 1376px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.left-main-div{
+    flex-basis: 55%;
+    text-align: justify;
+}
+.left-main-div > section{
+    overflow: auto;
+}
+.right-main-div{
+    flex-basis: 35%;
+    text-align: justify;
+}
+.left-main-div .div1{
+    width: 40%;
+    float: left;
+}
+.left-main-div .div2{
+    width: 55%;
+    float: right; 
+}
+
+.left-main-div .div1 img{
+    width: 100%;
+}
+/* about us section design starts here */
+
+/* footer design starts here */
+
+.footer{
+    margin-top: 150px;
+    background: #000;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between ;
+    width: 1376px;
+    margin: 0 auto;
+    padding: 90px 0;
+    text-align: justify;
+}
+.flex-container h3{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer-div1{
+    flex-basis: 25%;
+}
+.footer-div2{
+    flex-basis: 15%;
+}
+.footer-div3{
+    flex-basis: 20%;
+}
+.footer-div4{
+    flex-basis:22%;
+}
+.sub-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr-div{
+    flex-basis: 70%;
+}
+.img-div{
+    flex-basis: 30%;
+    text-align: end;
+}
+.img-div img{
+    width: 70%;
+}
+
+
+
+/* footer design endss here */
