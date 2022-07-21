@@ -33,7 +33,7 @@ li, a, button{
 
 header{
     display: flex;
-    height: 92px;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
     padding-left: 250px;
@@ -42,7 +42,9 @@ header{
 .logo{
     width: 75px;
 }
-
+.nav-links{
+    margin-top: 11px;
+}
 .nav-links ul li{
     list-style: none;
     display: inline-block;
@@ -58,7 +60,7 @@ header{
 .call-btn{
     background-color: #31d0d2;
     padding: 15px 25px;
-    margin-top: 35px;
+    margin-top: 54px;
     border: none;
 }
 
@@ -75,6 +77,38 @@ header{
 }
 
 /* slider design starts here */
+
+.side-bar{
+    position: relative;
+}
+.side-menu{
+    position: absolute;
+    right: 0px;
+}
+.side-bar1 ul{
+    list-style-position: inside;
+    list-style-image: url(images/side-menu-list-style.png);
+}
+.side-bar1 ul li{
+    background-color: #0e0e0e;
+    width: 213px;
+    height: 62px;
+    margin: 3px 0;
+    padding: 18px;
+    color: rgb(162, 159, 159);
+}
+
+.side-bar2 ul{
+    list-style-position: inside;
+    list-style-image: url(images/side-menu-list-style.png);
+}
+.side-bar2 ul li{
+    background-color: #f76241;
+    width: 213px;
+    height: 62px;
+    margin: 3px 0;
+    padding: 20px;
+}
 
 /* progress design starts here */
 
@@ -94,6 +128,11 @@ header{
 
 .projects{
     margin-top: 150px;
+}
+#residential{
+    width: 27px;
+    height: 24px;
+    background: url(images/residential.png) -22px 0;
 }
 .cards{
     display: flex;
@@ -124,6 +163,9 @@ header{
     justify-content: space-between;
     margin-top: 30px;
 }
+.flex-container .right-main-div h3{
+    color: #0e0e0e;
+}
 .left-main-div{
     flex-basis: 55%;
     text-align: justify;
@@ -132,8 +174,20 @@ header{
     overflow: auto;
 }
 .right-main-div{
-    flex-basis: 35%;
+    flex-basis: 41%;
     text-align: justify;
+    border-left: 5px solid rgb(162, 159, 159);
+    padding-left: 45px;
+    background-image: url(images/about-us-list-style.jpg);
+    background-repeat: no-repeat;
+    background-size: 0.5rem;
+    background-position: 0px 25px;
+}
+.right-main-div1{
+    padding-top: 14px;
+}
+.right-main-div2{
+    padding-top: 40px;
 }
 .left-main-div .div1{
     width: 40%;
@@ -170,15 +224,21 @@ header{
 }
 .footer-div1{
     flex-basis: 25%;
+    padding-top: 13px;
+}
+.footer-div1 p{
+    line-height: 29px;
+
 }
 .footer-div2{
-    flex-basis: 15%;
+    flex-basis: 14%;
 }
 .footer-div3{
     flex-basis: 20%;
 }
 .footer-div4{
     flex-basis:22%;
+    padding: 13px;
 }
 .sub-div{
     display: flex;
@@ -195,7 +255,73 @@ header{
 .img-div img{
     width: 70%;
 }
-
-
-
+.common-sub-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-div1{
+    flex-basis: 60%;
+}
+.sub-div2{
+    flex-basis: 30%;
+}
+.sub-div2 img{
+    width: 50px;
+}
+.footer-div2 ul{
+    list-style-position: inside;
+    list-style-image: url(images/play-small-grey.png);
+}
+.footer-div2 ul li{
+    line-height: 44px;
+}
+input{
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1rem;
+}
+button{
+    background-color: #31d0d2;
+    padding: 10px 25px;
+    margin: 10px 0px;
+}
+.sub-div4{
+    display: flex;
+    margin-top: 10px;
+}
+.sub-div4 a{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+#fb_icon{
+    width: 32px;
+    height:  38px;
+    background: url(images/facebook-icon.png) 0 0;
+    margin-right: 3px;
+}
+#twiter_icon{
+    width: 33px;
+    height: 38px;
+    background: url(images/twitter-icon.png) -31px 0;
+    margin-right: 3px;
+}
+#In_icon{
+    width: 33px;
+    height: 38px;
+    background: url(images/linked-in-icon.png) -31px 0;
+    margin-right: 3px;
+}
+#mail_icon{
+    width: 33px;
+    height: 38px;
+    background: url(images/mail-icon.png) -31px 0;
+    margin-right: 3px;
+}
+#edit_icon{
+    width: 33px;
+    height: 38px;
+    background: url(images/edit-icon.png) -31px 0;
+}
 /* footer design endss here */
