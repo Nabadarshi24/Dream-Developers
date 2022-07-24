@@ -32,12 +32,18 @@ li, a, button{
 }
 
 header{
+    position: relative;
     display: flex;
     height: 100px;
     justify-content: space-between;
     align-items: center;
     padding-left: 250px;
     background-color: #0e0e0e;
+}
+header h3{
+    position: absolute;
+    left: 283px;
+    bottom: 12px;
 }
 .logo{
     width: 75px;
@@ -53,29 +59,54 @@ header{
 }
 .nav-links ul li a:hover{
     background-color: #f76241;
-    padding: 15px 25px;
+    padding: 18px 25px;
     transition: 0.3s;
 }
 
 .call-btn{
     background-color: #31d0d2;
-    padding: 15px 25px;
-    margin-top: 54px;
+    padding: 18px 25px;
+    margin-top: 55px;
     border: none;
+    color: white;
 }
-
+.call-btn img{
+    width: 17px;
+    margin: -6px 5px;
+}
 /* header design ends here */
 
 /* slider design starts here */
 
 .slider-bg{
+    position: relative;
     background-image: url(images/slider-bg.jpg);
     background-size: cover;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.main-div{
+    position: absolute;
+    background-color: #fff;
+    width: 527px;
+    height: 186px;
+    padding: 32px 0px 0 32px;
+    top: 270px;
+    left: 242px;
+    opacity: 0.9;
+}
+.icon-div{
+    position: relative;
+}
+.icon-sub-div{
+    position: absolute;
+    right: 30px;
+    bottom: -45px;
+}
+.icon-sub-div span img{
+    width: 30px;
+}
 /* slider design starts here */
 
 .side-bar{
@@ -95,7 +126,7 @@ header{
     height: 62px;
     margin: 3px 0;
     padding: 18px;
-    color: rgb(162, 159, 159);
+    color: hsl(0deg 0% 75%);
 }
 
 .side-bar2 ul{
@@ -127,12 +158,42 @@ header{
 /* projects design starts here */
 
 .projects{
-    margin-top: 150px;
+    margin-top: 121px;
 }
-#residential{
-    width: 27px;
-    height: 24px;
-    background: url(images/residential.png) -22px 0;
+.featured-projects{
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 263px;
+    box-shadow: 0.01px 0.5px 0.05px 0.03px lightgray;
+
+}
+.residential-bg{
+    width: 38px;
+    height: 32px;
+    background: url(images/residential.png) -23px 0;
+    background-repeat: no-repeat;
+    zoom: 1.25;
+}
+.residential{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5px 0.01px 0.5px 0.03px lightgray;
+    flex-basis: 35%;
+}
+.comertial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comertial-bg{
+    width: 38px;
+    height: 32px;
+    background: url(images/commercial.png) -24px 5px;
+    background-repeat: no-repeat;
+    zoom: 1.25;
 }
 .cards{
     display: flex;
@@ -142,13 +203,54 @@ header{
 }
 .card{
     width: 337px;
-    height: 520px;
+    height: 438px;
+    
 }
-.card img{
-    width: 100%;
-    height: 100%;
+.card-bg-image1{
+    background-image: url(images/building1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-bg-image2{
+    background-image: url(images/building2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-bg-image3{
+    background-image: url(images/building3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-bg-image4{
+    background-image: url(images/building4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.card-bg-image5{
+    background-image: url(images/text-backgorund.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 97px;
+    text-align: center;
+}
+.card-bg-image5 span{
+    color: hsl(0, 0%, 75%);
+    font-size: 17px;
+    font-weight: 100;
+}
+.card-bg-image5 h4{
+    color: #0e0e0e;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
 /* projects design ends here */
 
 /* about us section design starts here */
@@ -176,18 +278,23 @@ header{
 .right-main-div{
     flex-basis: 41%;
     text-align: justify;
-    border-left: 5px solid rgb(162, 159, 159);
+    border-left: 5px solid hsl(0, 0%, 90%);
+}
+.right-main-div1{
+    padding-top: 14px;
     padding-left: 45px;
     background-image: url(images/about-us-list-style.jpg);
     background-repeat: no-repeat;
     background-size: 0.5rem;
     background-position: 0px 25px;
 }
-.right-main-div1{
-    padding-top: 14px;
-}
 .right-main-div2{
     padding-top: 40px;
+    padding-left: 45px;
+    background-image: url(images/about-us-list-style.jpg);
+    background-repeat: no-repeat;
+    background-size: 0.5rem;
+    background-position: 0px 50px;
 }
 .left-main-div .div1{
     width: 40%;
@@ -285,6 +392,7 @@ button{
     background-color: #31d0d2;
     padding: 10px 25px;
     margin: 10px 0px;
+    cursor: pointer;
 }
 .sub-div4{
     display: flex;
