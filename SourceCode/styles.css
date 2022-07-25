@@ -1,37 +1,43 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 3.2rem;
 }
-h2{
+
+h2 {
     font-size: 2.3rem;
 }
-h4{
+
+h4 {
     color: white;
     font-size: 1.2rem;
 }
-p{
+
+p {
     color: rgb(162, 159, 159);
     font-size: 1.3rem;
     font-weight: 250px;
 }
-.color-highlights{
+
+.color-highlights {
     color: hsl(180deg 54% 49%);
 }
 
 /* header design starts here */
-li, a, button{
+li,
+a,
+button {
     font-size: 20px;
     color: hsl(0, 0%, 90%);
     text-decoration: none;
 }
 
-header{
+header {
     position: relative;
     display: flex;
     height: 100px;
@@ -40,45 +46,52 @@ header{
     padding-left: 250px;
     background-color: #0e0e0e;
 }
-header h3{
+
+header h3 {
     position: absolute;
     left: 283px;
     bottom: 12px;
 }
-.logo{
+
+.logo {
     width: 75px;
 }
-.nav-links{
+
+.nav-links {
     margin-top: 11px;
 }
-.nav-links ul li{
+
+.nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 0px 30px;
     padding-top: 35px;
 }
-.nav-links ul li a:hover{
+
+.nav-links ul li a:hover {
     background-color: #f76241;
-    padding: 18px 25px;
+    padding: 18px 35px;
     transition: 0.3s;
 }
 
-.call-btn{
+.call-btn {
     background-color: #31d0d2;
     padding: 18px 25px;
     margin-top: 55px;
     border: none;
     color: white;
 }
-.call-btn img{
+
+.call-btn img {
     width: 17px;
     margin: -6px 5px;
 }
+
 /* header design ends here */
 
 /* slider design starts here */
 
-.slider-bg{
+.slider-bg {
     position: relative;
     background-image: url(images/slider-bg.jpg);
     background-size: cover;
@@ -86,7 +99,8 @@ header h3{
     background-repeat: no-repeat;
     background-position: center;
 }
-.main-div{
+
+.main-div {
     position: absolute;
     background-color: #fff;
     width: 527px;
@@ -96,31 +110,38 @@ header h3{
     left: 242px;
     opacity: 0.9;
 }
-.icon-div{
+
+.icon-div {
     position: relative;
 }
-.icon-sub-div{
+
+.icon-sub-div {
     position: absolute;
     right: 30px;
     bottom: -45px;
 }
-.icon-sub-div span img{
+
+.icon-sub-div span img {
     width: 30px;
 }
+
 /* slider design starts here */
 
-.side-bar{
+.side-bar {
     position: relative;
 }
-.side-menu{
+
+.side-menu {
     position: absolute;
     right: 0px;
 }
-.side-bar1 ul{
+
+.side-bar1 ul {
     list-style-position: inside;
     list-style-image: url(images/side-menu-list-style.png);
 }
-.side-bar1 ul li{
+
+.side-bar1 ul li {
     background-color: #0e0e0e;
     width: 213px;
     height: 62px;
@@ -129,11 +150,12 @@ header h3{
     color: hsl(0deg 0% 75%);
 }
 
-.side-bar2 ul{
+.side-bar2 ul {
     list-style-position: inside;
     list-style-image: url(images/side-menu-list-style.png);
 }
-.side-bar2 ul li{
+
+.side-bar2 ul li {
     background-color: #f76241;
     width: 213px;
     height: 62px;
@@ -143,12 +165,13 @@ header h3{
 
 /* progress design starts here */
 
-.progress{
+.progress {
     padding-top: 150px;
     max-width: 1376px;
     margin: 0 auto;
     text-align: center;
 }
+
 .progress p {
     line-height: 30px;
 }
@@ -157,10 +180,11 @@ header h3{
 
 /* projects design starts here */
 
-.projects{
+.projects {
     margin-top: 121px;
 }
-.featured-projects{
+
+.featured-projects {
     width: 640px;
     display: flex;
     justify-content: space-between;
@@ -169,69 +193,91 @@ header h3{
     box-shadow: 0.01px 0.5px 0.05px 0.03px lightgray;
 
 }
-.residential-bg{
+
+.residential-bg {
     width: 38px;
     height: 32px;
     background: url(images/residential.png) -23px 0;
     background-repeat: no-repeat;
     zoom: 1.25;
 }
-.residential{
+
+.residential {
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0.5px 0.01px 0.5px 0.03px lightgray;
     flex-basis: 35%;
 }
-.comertial{
+
+.comertial {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.comertial-bg{
+
+.comertial-bg {
     width: 38px;
     height: 32px;
     background: url(images/commercial.png) -24px 5px;
     background-repeat: no-repeat;
     zoom: 1.25;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: space-between;
     max-width: 1376px;
     margin: 0 auto;
 }
-.card{
+
+.card {
     width: 337px;
     height: 438px;
-    
+
 }
-.card-bg-image1{
+
+.card-bg-image1 {
     background-image: url(images/building1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.card-bg-image2{
+
+.card-bg-image2 {
     background-image: url(images/building2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.card-bg-image3{
+
+.card-bg-image6{
+    background-image: url(images/explore.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0;
+}
+.card-bg-image2:hover .card-bg-image6{
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.card-bg-image3 {
     background-image: url(images/building3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.card-bg-image4{
+
+.card-bg-image4 {
     background-image: url(images/building4.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.card-bg-image5{
+.card-bg-image5 {
     background-image: url(images/text-backgorund.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -239,48 +285,57 @@ header h3{
     height: 97px;
     text-align: center;
 }
-.card-bg-image5 span{
+
+.card-bg-image5 span {
     color: hsl(0, 0%, 75%);
     font-size: 17px;
     font-weight: 100;
 }
-.card-bg-image5 h4{
+
+.card-bg-image5 h4 {
     color: #0e0e0e;
     width: 85%;
     margin: 0 auto;
     padding-top: 15px;
     font-size: 1.5rem;
 }
+
 /* projects design ends here */
 
 /* about us section design starts here */
-.about-us{
+.about-us {
     width: 1376px;
     margin: 0 auto;
     margin-top: 70px;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     margin-top: 30px;
 }
-.flex-container .right-main-div h3{
+
+.flex-container .right-main-div h3 {
     color: #0e0e0e;
 }
-.left-main-div{
+
+.left-main-div {
     flex-basis: 55%;
     text-align: justify;
 }
-.left-main-div > section{
+
+.left-main-div>section {
     overflow: auto;
 }
-.right-main-div{
+
+.right-main-div {
     flex-basis: 41%;
     text-align: justify;
     border-left: 5px solid hsl(0, 0%, 90%);
 }
-.right-main-div1{
+
+.right-main-div1 {
     padding-top: 14px;
     padding-left: 45px;
     background-image: url(images/about-us-list-style.jpg);
@@ -288,7 +343,8 @@ header h3{
     background-size: 0.5rem;
     background-position: 0px 25px;
 }
-.right-main-div2{
+
+.right-main-div2 {
     padding-top: 40px;
     padding-left: 45px;
     background-image: url(images/about-us-list-style.jpg);
@@ -296,140 +352,176 @@ header h3{
     background-size: 0.5rem;
     background-position: 0px 50px;
 }
-.left-main-div .div1{
+
+.left-main-div .div1 {
     width: 40%;
     float: left;
 }
-.left-main-div .div2{
-    width: 55%;
-    float: right; 
-}
 
-.left-main-div .div1 img{
+.left-main-div .div2 {
+    width: 55%;
+    float: right;
+}
+.div2 p{
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+.div3 p{
+    font-size: 22px;
+}
+.left-main-div .div1 img {
     width: 100%;
 }
+
 /* about us section design starts here */
 
 /* footer design starts here */
 
-.footer{
+.footer {
     margin-top: 150px;
     background: #000;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between ;
+    justify-content: space-between;
     width: 1376px;
     margin: 0 auto;
     padding: 90px 0;
     text-align: justify;
 }
-.flex-container h3{
+
+.flex-container h3 {
     color: white;
     font-size: 1.5rem;
 }
-.footer-div1{
+
+.footer-div1 {
     flex-basis: 25%;
     padding-top: 13px;
 }
-.footer-div1 p{
+
+.footer-div1 p {
     line-height: 29px;
 
 }
-.footer-div2{
+
+.footer-div2 {
     flex-basis: 14%;
 }
-.footer-div3{
+
+.footer-div3 {
     flex-basis: 20%;
 }
-.footer-div4{
-    flex-basis:22%;
+
+.footer-div4 {
+    flex-basis: 22%;
     padding: 13px;
 }
-.sub-div{
+
+.sub-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.hr-div{
+
+.hr-div {
     flex-basis: 70%;
 }
-.img-div{
+
+.img-div {
     flex-basis: 30%;
     text-align: end;
 }
-.img-div img{
+
+.img-div img {
     width: 70%;
 }
-.common-sub-div{
+
+.common-sub-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.sub-div1{
+
+.sub-div1 {
     flex-basis: 60%;
 }
-.sub-div2{
+
+.sub-div2 {
     flex-basis: 30%;
 }
-.sub-div2 img{
+
+.sub-div2 img {
     width: 50px;
 }
-.footer-div2 ul{
+
+.footer-div2 ul {
     list-style-position: inside;
     list-style-image: url(images/play-small-grey.png);
 }
-.footer-div2 ul li{
+
+.footer-div2 ul li {
     line-height: 44px;
 }
-input{
+
+input {
     width: 100%;
     padding: 15px 20px;
     font-size: 1rem;
 }
-button{
+
+button {
     background-color: #31d0d2;
     padding: 10px 25px;
     margin: 10px 0px;
     cursor: pointer;
 }
-.sub-div4{
+
+.sub-div4 {
     display: flex;
     margin-top: 10px;
 }
-.sub-div4 a{
+
+.sub-div4 a {
     height: 100%;
     width: 100%;
     display: block;
 }
-#fb_icon{
+
+#fb_icon {
     width: 32px;
-    height:  38px;
+    height: 38px;
     background: url(images/facebook-icon.png) 0 0;
     margin-right: 3px;
 }
-#twiter_icon{
+
+#twiter_icon {
     width: 33px;
     height: 38px;
     background: url(images/twitter-icon.png) -31px 0;
     margin-right: 3px;
 }
-#In_icon{
+
+#In_icon {
     width: 33px;
     height: 38px;
     background: url(images/linked-in-icon.png) -31px 0;
     margin-right: 3px;
 }
-#mail_icon{
+
+#mail_icon {
     width: 33px;
     height: 38px;
     background: url(images/mail-icon.png) -31px 0;
     margin-right: 3px;
 }
-#edit_icon{
+
+#edit_icon {
     width: 33px;
     height: 38px;
     background: url(images/edit-icon.png) -31px 0;
 }
+
 /* footer design endss here */
