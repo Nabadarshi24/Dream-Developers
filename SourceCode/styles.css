@@ -26,21 +26,23 @@ p {
 
 .color-highlights {
     color: hsl(180deg 54% 49%);
+    cursor: pointer;
 }
 
 /* header design starts here */
 li,
 a,
 button {
-    font-size: 20px;
+    font-size: 19px;
     color: hsl(0, 0%, 90%);
     text-decoration: none;
+    font-weight: 395;
 }
 
 header {
     position: relative;
     display: flex;
-    height: 100px;
+    height: 111px;
     justify-content: space-between;
     align-items: center;
     padding-left: 250px;
@@ -49,37 +51,46 @@ header {
 
 header h3 {
     position: absolute;
-    left: 283px;
-    bottom: 12px;
+    left: 286px;
+    bottom: 13px;
+    font-size: 1.6rem;
 }
 
 .logo {
-    width: 75px;
+    width: 84px;
 }
 
 .nav-links {
-    margin-top: 11px;
+    margin-top: 23px;
+}
+.nav-links ul{
+    margin-top: 35px;
 }
 
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 0px 30px;
-    padding-top: 35px;
+}
+
+.nav-links ul li a{
+    padding: 18px 35px;
 }
 
 .nav-links ul li a:hover {
     background-color: #f76241;
-    padding: 18px 35px;
     transition: 0.3s;
 }
 
 .call-btn {
     background-color: #31d0d2;
     padding: 18px 25px;
-    margin-top: 55px;
+    margin-top: 61px;
     border: none;
     color: white;
+}
+
+.call-btn a{
+    font-weight: 700;
 }
 
 .call-btn img {
@@ -109,6 +120,12 @@ header h3 {
     top: 270px;
     left: 242px;
     opacity: 0.9;
+}
+
+.text-div p{
+    color: #292727;
+    font-weight: 395;
+    font-size: 18px;
 }
 
 .icon-div {
@@ -147,7 +164,13 @@ header h3 {
     height: 62px;
     margin: 3px 0;
     padding: 18px;
-    color: hsl(0deg 0% 75%);
+    color: hsl(0deg 0% 90%);
+    cursor: pointer;
+}
+
+.side-bar1 ul li span{
+    position: relative;
+    padding-left: 10px;
 }
 
 .side-bar2 ul {
@@ -161,6 +184,12 @@ header h3 {
     height: 62px;
     margin: 3px 0;
     padding: 20px;
+    cursor: pointer;
+}
+
+.side-bar2 ul li span{
+    position: relative;
+    padding-left: 10px;
 }
 
 /* progress design starts here */
@@ -174,6 +203,9 @@ header h3 {
 
 .progress p {
     line-height: 30px;
+    color: #292727;
+    font-weight: 390;
+    font-size: 20px;
 }
 
 /* progress design ends here */
@@ -234,6 +266,7 @@ header h3 {
 .card {
     width: 337px;
     height: 438px;
+    cursor: pointer;
 
 }
 
@@ -259,7 +292,37 @@ header h3 {
     height: 100%;
     opacity: 0;
 }
+
+.card-bg-image1:hover .card-bg-image5{
+    display: none;
+}
+
+.card-bg-image1:hover .card-bg-image6{
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.card-bg-image2:hover .card-bg-image5{
+    display: none;
+}
+
 .card-bg-image2:hover .card-bg-image6{
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.card-bg-image3:hover .card-bg-image5{
+    display: none;
+}
+
+.card-bg-image3:hover .card-bg-image6{
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.card-bg-image4:hover .card-bg-image5{
+    display: none;
+}
+
+.card-bg-image4:hover .card-bg-image6{
     opacity: 0.9;
     transition: 0.3s;
 }
@@ -289,12 +352,12 @@ header h3 {
 .card-bg-image5 span {
     color: hsl(0, 0%, 75%);
     font-size: 17px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .card-bg-image5 h4 {
     color: #0e0e0e;
-    width: 85%;
+    width: 69%;
     margin: 0 auto;
     padding-top: 15px;
     font-size: 1.5rem;
@@ -314,10 +377,6 @@ header h3 {
     flex-flow: row wrap;
     justify-content: space-between;
     margin-top: 30px;
-}
-
-.flex-container .right-main-div h3 {
-    color: #0e0e0e;
 }
 
 .left-main-div {
@@ -364,11 +423,29 @@ header h3 {
 }
 .div2 p{
     font-size: 1.8rem;
-    font-weight: 100;
+    font-weight: 389;
+    color: #292727;
 }
 .div3 p{
     font-size: 22px;
 }
+
+.right-main-div .right-main-div1 h3{
+    color: #292727;
+    font-weight: 400;
+}
+
+.right-main-div .right-main-div2 h3{
+    color: #292727;
+    font-weight: 400;
+}
+
+.common-font-size{
+    font-weight: 395;
+    font-size: 18px;
+    color: #292727;
+}
+
 .left-main-div .div1 img {
     width: 100%;
 }
@@ -380,6 +457,7 @@ header h3 {
 .footer {
     margin-top: 150px;
     background: #000;
+    color: hsl(0, 0%, 90%);
 }
 
 .flex-container {
@@ -404,6 +482,8 @@ header h3 {
 
 .footer-div1 p {
     line-height: 29px;
+    font-weight: 390;
+    font-size: 18px;
 
 }
 
@@ -464,6 +544,25 @@ header h3 {
 
 .footer-div2 ul li {
     line-height: 44px;
+    font-size: 18px;
+    font-weight: 390;
+    color: #888282;
+    cursor: pointer;
+}
+
+.footer-div2 ul li span{
+    position: relative;
+    padding-left: 5px;
+}
+
+.footer-div2 ul li:hover{
+    color: hsl(0, 0%, 90%);
+}
+
+.footer-div3 .sub-div3 p{
+    font-size: 18px;
+    font-weight: 390;
+    color: rgba(255, 255, 255, 0.733);
 }
 
 input {
